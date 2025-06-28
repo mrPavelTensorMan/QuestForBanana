@@ -8,11 +8,12 @@
         </svg:linearGradient >
     </svg:defs>
     <svg:g id="common_dots" style="fill: url('#commonGradient')">
-        <!--		строка 1-->
-        <svg:path d="M120,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
-        <svg:path d="M180,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
-        <svg:path d="M200,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
-        <svg:path d="M210,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
-        <svg:path d="M250,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+        <!--		квадратики-->
+        <svg:path d="m55,20 h35 h0 v0 v70 v0 h-0 h-70 h-0 v-0 v-70 v-0 h-0 h35 v10 h-25 h-0 v0  v50 v0 h0 h50 h0 v-0 v-50 v-0 h-0 h-25 v-10 z" />
+        <svg:path d="m315,20 h35 h0 v0 v70 v0 h-0 h-70 h-0 v-0 v-70 v-0 h-0 h35 v10 h-25 h-0 v0  v50 v0 h0 h50 h0 v-0 v-50 v-0 h-0 h-25 v-10 z" />
+        <svg:path d="m55,280 h35 h0 v0 v70 v0 h-0 h-70 h-0 v-0 v-70 v-0 h-0 h35 v10 h-25 h-0 v0  v50 v0 h0 h50 h0 v-0 v-50 v-0 h-0 h-25 v-10 z" />
+        <svg:path d="m55,40 h15 h0 v0 v30 v0 h-0 h-30 h-0 v-0 v-30 v-0 h-0 h15 z" />
+        <svg:path d="m315,40 h15 h0 v0 v30 v0 h-0 h-30 h-0 v-0 v-30 v-0 h-0 h15 z" />
+        <svg:path d="m55,300 h15 h0 v0 v30 v0 h-0 h-30 h-0 v-0 v-30 v-0 h-0 h15 z" />
     </svg:g>
 </svg:svg>
