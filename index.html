@@ -8,7 +8,25 @@
 <body class="root" style="font-family: Arial, sans-serif;font-weight: bold;">
 <main style="display: flex; justify-content: center; flex-direction: column; align-items: center; width: 100%; height: 100%;">
     <h1>Вот и всё!</h1>
-    <img src="images/qr.svg">
+
+    <svg height="370" width="370" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect height="370" id="qrcodebg" rx="0" ry="0" style="fill: #ffffff" width="370" x="0" y="0" />
+        <defs id="def_con_one">
+            <linearGradient  gradientTransform="rotate(90)" gradientUnits="userSpaceOnUse" id="commonGradient">
+                <stop offset="0%" stop-color="#000000" />
+                <stop offset="100%" stop-color="#f50000" />
+            </linearGradient >
+        </defs>
+        <g id="common_dots" style="fill: url('#commonGradient')">
+            <!--		квадратики-->
+            <path d="m55,20 h35 h0 v0 v70 v0 h-0 h-70 h-0 v-0 v-70 v-0 h-0 h35 v10 h-25 h-0 v0  v50 v0 h0 h50 h0 v-0 v-50 v-0 h-0 h-25 v-10 z" />
+            <path d="m315,20 h35 h0 v0 v70 v0 h-0 h-70 h-0 v-0 v-70 v-0 h-0 h35 v10 h-25 h-0 v0  v50 v0 h0 h50 h0 v-0 v-50 v-0 h-0 h-25 v-10 z" />
+            <path d="m55,280 h35 h0 v0 v70 v0 h-0 h-70 h-0 v-0 v-70 v-0 h-0 h35 v10 h-25 h-0 v0  v50 v0 h0 h50 h0 v-0 v-50 v-0 h-0 h-25 v-10 z" />
+            <path d="m55,40 h15 h0 v0 v30 v0 h-0 h-30 h-0 v-0 v-30 v-0 h-0 h15 z" />
+            <path d="m315,40 h15 h0 v0 v30 v0 h-0 h-30 h-0 v-0 v-30 v-0 h-0 h15 z" />
+            <path d="m55,300 h15 h0 v0 v30 v0 h-0 h-30 h-0 v-0 v-30 v-0 h-0 h15 z" />
+        </g>
+    </svg>
 </main>
 </body>
 </html>
