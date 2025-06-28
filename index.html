@@ -10,7 +10,24 @@
     <h1>Отличная работа!</h1>
     <h2>Ты нашел старт! Здесь лежит первый фрагмент QR-кода.</h2>
     <h2>Чтобы пройти дальше, нужно слить эту ветку с веткой, номер которой представляет основание натурального логарифма, умноженное на 10</h2>
-    <img src="images/qr.svg">
+
+    <svg height="370" width="370" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect height="370" id="qrcodebg" rx="0" ry="0" style="fill: #ffffff" width="370" x="0" y="0" />
+        <defs id="def_con_one">
+            <linearGradient  gradientTransform="rotate(90)" gradientUnits="userSpaceOnUse" id="commonGradient">
+                <stop offset="0%" stop-color="#000000" />
+                <stop offset="100%" stop-color="#f50000" />
+            </linearGradient >
+        </defs>
+        <g id="common_dots" style="fill: url('#commonGradient')">
+            <!--		строка 1-->
+            <path d="M120,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+            <path d="M180,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+            <path d="M200,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+            <path d="M210,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+            <path d="M250,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+        </g>
+    </svg>
 </main>
 </body>
 </html>
