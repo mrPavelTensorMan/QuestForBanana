@@ -1,0 +1,18 @@
+
+<svg:svg height="370" width="370" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg:rect height="370" id="qrcodebg" rx="0" ry="0" style="fill: #ffffff" width="370" x="0" y="0" />
+    <svg:defs id="def_con_one">
+        <svg:linearGradient  gradientTransform="rotate(90)" gradientUnits="userSpaceOnUse" id="commonGradient">
+            <svg:stop offset="0%" stop-color="#000000" />
+            <svg:stop offset="100%" stop-color="#f50000" />
+        </svg:linearGradient >
+    </svg:defs>
+    <svg:g id="common_dots" style="fill: url('#commonGradient')">
+        <!--		строка 1-->
+        <svg:path d="M120,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+        <svg:path d="M180,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+        <svg:path d="M200,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+        <svg:path d="M210,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+        <svg:path d="M250,20 h10 q0,0 0,0 v10 q0,0 -0,0 h-10 q-0,0 -0,-0 v-10 q0,-0 0,-0 z" />
+    </svg:g>
+</svg:svg>
